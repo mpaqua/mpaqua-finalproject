@@ -23,11 +23,11 @@ for a_div in all_labels:
 	item_html = item_request.text
 	item_soup = BeautifulSoup(item_html, "html.parser")
 	all_field_divs = item_soup.find_all("div", attrs={'class':'field-value'})
-	for a_culture in all_field_divs: 
-		print('---')
-		print(a_culture.text)
+	
+
 
 #Project Notes: 
+# In order to get the text that is included in the headings alongside "field value", use the "next sibling" method
 #Suggested additions once I'm reading to scrape the whole website: 
 	#To delay the code somewhat so that I'm not constantly scraping the whole site:
 		#import time module “import time”
