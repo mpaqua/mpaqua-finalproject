@@ -1,19 +1,25 @@
 
 import csv, json
-import pandas as pd
+
+#Wrote a CSV file with information from data.json
 outfile =open("timeline.csv","w")
 infile = open("data.json","r")
 writer = csv.writer(outfile)
+
+#Added a row with headings
+writer.writerow(["Object Number", "Title", "Provenance"])
+
+#Identified just the latest entry in the provenance row - year of accession
 for row in json.loads(infile.read()):
-    writer.writerow(["Object Number", "Date", "Provenance"])
+    years = list(map(int,row["provenance"]))
+    if len(years)>0:
+        biggestyear=max(years)
+    else:
+        biggestyear = "Null"
     a_row=[]
-    for c in row["provenance"]:
-        a_row.append(row["objectnumber"])
-        a_row.append(row["datecreated"])
-        a_row.append(c)
-        writer.writerow(a_row)
-        file_name="timeline.csv"
-        file_name_output ="timeline_without_dupes.csv"
-        df = pd.read_csv(file_name, sep="\t or ,")
-        df.drop_duplicates(subset=None, inplace=True)
-        df.to_csv(file_name_output)
+
+#Wrote the remaining rows
+    a_row.append(row["objectnumber"])
+    a_row.append(row["title"])
+    a_row.append(biggestyear)
+    writer.writerow(a_row)
