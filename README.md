@@ -33,17 +33,19 @@ The final Native-Land map, as well as the map showing the international groups c
 
 ## Instructions for Use:
 
-1) To run this yourself you’ll need to download the final.py script, and run it using Python3.
+1) To run this yourself you’ll need to download the python-scripts folder
 
-2) When it's finished running, you'll see a file labled data.json at the same level where you've saved the original python script.
+2) Run the final.py script using Python3.
 
-3) Next, run the script dataviz.py. This script will create a CSV file titled “dataviz.csv” at the same level as the other files that has the object number, title, final provenance year, and associated culture for each object.
+3) When it's finished running, you'll see a file labled data.json at the same level where you've saved the original python script.
 
-4) Next, run the script map.py. This will produce a csv file titled “map.csv” at the same level as the other files, which contains list of all of the cultures referenced in the Native Arts collections pages.
+4) Next, run the script dataviz.py. This script will create a CSV file titled “dataviz.csv” at the same level as the other files that has the object number, title, final provenance year, and associated culture for each object.
 
-5) To use these cultures in the Native-Lands.ca interface, use the list of “territory slugs” found in the "native_land_notes.rtf" text file; this has a complete list of updated names, plus a record of any changes or issues encountered when comparing the two sources. Copy and paste the territory slugs into the Native-Land.ca url: https://native-land.ca/api/embed/embed.html?maps=territories&name=
+5) Next, run the script map.py. This will produce a csv file titled “map.csv” at the same level as the other files, which contains list of all of the cultures referenced in the Native Arts collections pages.
 
-6) If you would like to see the Tableau visualizations I made using dataviz.csv and map.csv, you can find them on Tableau Public dashboard (links below)
+6) To use these cultures in the Native-Lands.ca interface, use the list of “territory slugs” found in the "native_land_notes.rtf" text file; this has a complete list of updated names, plus a record of any changes or issues encountered when comparing the two sources. Copy and paste the territory slugs into the Native-Land.ca url: https://native-land.ca/api/embed/embed.html?maps=territories&name=
+
+7) If you would like to see the Tableau visualizations I made using dataviz.csv and map.csv, you can find them on Tableau Public dashboard (links below)
 
 ## Links
 
