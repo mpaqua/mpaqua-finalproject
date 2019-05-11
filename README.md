@@ -1,6 +1,6 @@
 # Megan Paqua - PCH Final Project
 
-Project Overview
+## Project Overview
 
 This project uses Python to scrape the Denver Art Museum’s collection website (https://denverartmuseum.org/collection). For this project, I focused on the works of art in their “Native Arts” department, which contains archaeological and historic artifacts as well as contemporary artworks from indigenous cultures of North America and the South Pacific, as well as ethnic groups in Africa.
 For this project, I used six modules:
@@ -31,7 +31,7 @@ The list of territory slugs was then amended to the Native-Lands.ca mapping ifra
 
 The final Native-Land map, as well as the map showing the international groups can be found on the Tableau Public dashboard as well.
 
-Instructions for Use:
+## Instructions for Use:
 
 1) To run this yourself you’ll need to download the final.py script, and run it using Python3.
 
@@ -45,7 +45,7 @@ Instructions for Use:
 
 6) If you would like to see the Tableau visualizations I made using dataviz.csv and map.csv, you can find them on Tableau Public dashboard (links below)
 
-Links
+## Links
 
 Github repository:https://github.com/mpaqua/mpaqua-finalproject
 
