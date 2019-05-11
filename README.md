@@ -49,11 +49,7 @@ The final Native-Land map, as well as the map showing the international groups c
 
 ## Links
 
-Github repository:https://github.com/mpaqua/mpaqua-finalproject
-
 Tableau Dashboard: https://public.tableau.com/profile/megan6673#!/vizhome/ProgramforCulturalHeritageFinalProject/Maps
-
-Denver Art Museum Collections Website:https://denverartmuseum.org/collection
 
 Native-Land.ca API Endpoint:https://native-land.ca/api/index.html
 
