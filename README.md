@@ -17,9 +17,9 @@ After this information was compiled, I used data.json to write a CSV file for us
 
 This file was used to create visualizations in Tableau Public to track:
 
-    1) A timeline of acquisition activity - I was interested to see if the passing of NAGPRA in 1990 affected the museum’s rate of acquisitions of “Native Arts.”  Surprisingly, this was not the case, and there was an unexpected spike in acquisitions in 2003.
+   1) A timeline of acquisition activity - I was interested to see if the passing of NAGPRA in 1990 affected the museum’s rate of acquisitions of “Native Arts.”  Surprisingly, this was not the case, and there was an unexpected spike in acquisitions in 2003.
     
-    2) Culture frequency - I wanted to see which cultures were most represented in the collection; however, due to some objects having several cultures associated with them — for a variety of reasons— it was not possible to directly graph that. This chart instead tracks the frequency with which each cultural group is referenced in the collections information.
+   2) Culture frequency - I wanted to see which cultures were most represented in the collection; however, due to some objects having several cultures associated with them — for a variety of reasons— it was not possible to directly graph that. This chart instead tracks the frequency with which each cultural group is referenced in the collections information.
 
 After having so much difficulty representing the frequency of the cultures, I used data.json to write another CSV file. Using mapscv.py, I compiled a list of each of the cultural terms used in the collection. This list was intended to be used to create a map using the Native-Land.ca API.
 
